@@ -1,0 +1,8 @@
+#VRML V2.0 utf8
+# PIXEL project - SIMPLIFIED geometric model (outline dimensions only), not a manufacturer model. Units 0.1 inch.
+# LiPo 3.7 V 1200 mAh EasyLander 103040 envelope 40 x 30 x 10 mm
+Transform { translation 0.0000 0.0000 1.8898 children [ Shape { appearance Appearance { material Material { diffuseColor 0.46 0.48 0.53 specularColor 0.12 0.12 0.12 shininess 0.12 } } geometry Box { size 15.3543 11.4961 3.7795 } } ] }
+Transform { translation 0.0000 0.0000 1.9685 children [ Shape { appearance Appearance { material Material { diffuseColor 0.52 0.54 0.59 specularColor 0.12 0.12 0.12 shininess 0.12 } } geometry Box { size 13.3858 10.6299 3.9370 } } ] }
+Transform { translation -6.7717 0.0000 1.9882 children [ Shape { appearance Appearance { material Material { diffuseColor 0.88 0.62 0.1 specularColor 0.4 0.3 0.1 shininess 0.4 } } geometry Box { size 2.2047 11.4173 3.4646 } } ] }
+Transform { translation -8.3858 0.7874 0.7874 children [ Shape { appearance Appearance { material Material { diffuseColor 0.85 0.08 0.08 specularColor 0.3 0.3 0.3 shininess 0.3 } } geometry Box { size 1.2598 0.3937 0.3937 } } ] }
+Transform { translation -8.3858 0.1575 0.7874 children [ Shape { appearance Appearance { material Material { diffuseColor 0.05 0.05 0.05 specularColor 0.3 0.3 0.3 shininess 0.3 } } geometry Box { size 1.2598 0.3937 0.3937 } } ] }

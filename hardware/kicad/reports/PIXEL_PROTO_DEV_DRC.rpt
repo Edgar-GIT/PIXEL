@@ -1,0 +1,21 @@
+** Drc report for PIXEL_PROTO_DEV.kicad_pcb **
+** Created on 2026-11-22T20:31:29 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 1 DRC violations **
+[lib_footprint_mismatch]: O footprint 'LiPo_EasyLander_103040_Virtual' não corresponde à cópia na biblioteca 'PIXEL_Mechanical'
+    Local override; warning
+    @(134.0000 mm, 125.0000 mm): Footprint MECH2
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

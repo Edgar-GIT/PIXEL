@@ -1,0 +1,16 @@
+ERC report (2026-11-22T20:27:07, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[pin_to_pin]: Os pinos do tipo Não especificado e Alimentação estão conectados
+    ; warning
+    @(347.98 mm, 96.52 mm): Symbol U2 Pino 17 [PAD, Não especificado, Linha]
+    @(347.98 mm, 99.06 mm): Symbol #PWR015 Pino 1 [Alimentação, Linha]
+
+ ** ERC messages: 1  Errors 0  Warnings 1
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

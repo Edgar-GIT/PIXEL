@@ -1,0 +1,58 @@
+** Drc report for PIXEL_PROTO.kicad_pcb **
+** Created on 2026-11-22T20:31:26 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 10 DRC violations **
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(106.3300 mm, 143.9500 mm): Segmento de R1 em B.Silkscreen
+    @(108.3300 mm, 125.0000 mm): Segmento no B.Mask
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(106.3300 mm, 146.6900 mm): Segmento de R1 em B.Silkscreen
+    @(108.3300 mm, 125.0000 mm): Segmento no B.Mask
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(117.5000 mm, 120.4000 mm): Texto da PCI 'BT1 colada aqui' em B.Silkscreen
+    @(123.5700 mm, 119.9200 mm): Ilha PTH 6 [unconnected-(U1-D5-Pad6)] de U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(117.5000 mm, 120.4000 mm): Texto da PCI 'BT1 colada aqui' em B.Silkscreen
+    @(121.0300 mm, 119.9200 mm): Ilha PTH 5 [/I2S_LRCLK] de U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(117.5000 mm, 120.4000 mm): Texto da PCI 'BT1 colada aqui' em B.Silkscreen
+    @(118.4900 mm, 119.9200 mm): Ilha PTH 4 [/I2S_BCLK] de U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(117.5000 mm, 120.4000 mm): Texto da PCI 'BT1 colada aqui' em B.Silkscreen
+    @(115.9500 mm, 119.9200 mm): Ilha PTH 3 [/I2S_DOUT] de U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(117.5000 mm, 120.4000 mm): Texto da PCI 'BT1 colada aqui' em B.Silkscreen
+    @(113.4100 mm, 119.9200 mm): Ilha PTH 2 [unconnected-(U1-D1-Pad2)] de U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(117.5000 mm, 120.4000 mm): Texto da PCI 'BT1 colada aqui' em B.Silkscreen
+    @(110.8700 mm, 119.9200 mm): Ilha PTH 1 [/VBAT_SENSE] de U1
+[lib_footprint_mismatch]: O footprint 'Speaker_LD-SP-U15.5_Virtual' não corresponde à cópia na biblioteca 'PIXEL_Mechanical'
+    Local override; warning
+    @(143.7000 mm, 129.0000 mm): Footprint MECH1
+[lib_footprint_mismatch]: O footprint 'LiPo_EasyLander_103040_Virtual' não corresponde à cópia na biblioteca 'PIXEL_Mechanical'
+    Local override; warning
+    @(117.5000 mm, 120.4000 mm): Footprint MECH2
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

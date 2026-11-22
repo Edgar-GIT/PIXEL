@@ -1,0 +1,260 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-22T20:31:27",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "key": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "key": "npth_inside_courtyard"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "PIXEL_PROTO.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de R1 em B.Silkscreen",
+                    "pos": {
+                        "x": 106.33,
+                        "y": 143.95
+                    },
+                    "uuid": "62a94ab7-a628-4fb7-baea-7c42ab606f80"
+                },
+                {
+                    "description": "Segmento no B.Mask",
+                    "pos": {
+                        "x": 108.33,
+                        "y": 125.0
+                    },
+                    "uuid": "302b371f-7771-44ad-adff-159f9d072600"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de R1 em B.Silkscreen",
+                    "pos": {
+                        "x": 106.33,
+                        "y": 146.69
+                    },
+                    "uuid": "239c808c-ac8a-4cf8-b365-9c1aebd92540"
+                },
+                {
+                    "description": "Segmento no B.Mask",
+                    "pos": {
+                        "x": 108.33,
+                        "y": 125.0
+                    },
+                    "uuid": "302b371f-7771-44ad-adff-159f9d072600"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Texto da PCI 'BT1 colada aqui' em B.Silkscreen",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 120.4
+                    },
+                    "uuid": "c406a703-39fd-4e83-97a1-472e744a2f67"
+                },
+                {
+                    "description": "Ilha PTH 6 [unconnected-(U1-D5-Pad6)] de U1",
+                    "pos": {
+                        "x": 123.57,
+                        "y": 119.92
+                    },
+                    "uuid": "7acaeb6a-174e-4082-95fa-8f8f1199ffdd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Texto da PCI 'BT1 colada aqui' em B.Silkscreen",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 120.4
+                    },
+                    "uuid": "c406a703-39fd-4e83-97a1-472e744a2f67"
+                },
+                {
+                    "description": "Ilha PTH 5 [/I2S_LRCLK] de U1",
+                    "pos": {
+                        "x": 121.03,
+                        "y": 119.92
+                    },
+                    "uuid": "cbb7a480-75bf-47e0-96dc-d2f4d4c75d61"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Texto da PCI 'BT1 colada aqui' em B.Silkscreen",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 120.4
+                    },
+                    "uuid": "c406a703-39fd-4e83-97a1-472e744a2f67"
+                },
+                {
+                    "description": "Ilha PTH 4 [/I2S_BCLK] de U1",
+                    "pos": {
+                        "x": 118.49,
+                        "y": 119.92
+                    },
+                    "uuid": "9e13e596-dda9-4c31-8471-17288c9fb279"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Texto da PCI 'BT1 colada aqui' em B.Silkscreen",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 120.4
+                    },
+                    "uuid": "c406a703-39fd-4e83-97a1-472e744a2f67"
+                },
+                {
+                    "description": "Ilha PTH 3 [/I2S_DOUT] de U1",
+                    "pos": {
+                        "x": 115.95,
+                        "y": 119.92
+                    },
+                    "uuid": "365d3e5f-7553-4780-8070-a4659e60f012"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Texto da PCI 'BT1 colada aqui' em B.Silkscreen",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 120.4
+                    },
+                    "uuid": "c406a703-39fd-4e83-97a1-472e744a2f67"
+                },
+                {
+                    "description": "Ilha PTH 2 [unconnected-(U1-D1-Pad2)] de U1",
+                    "pos": {
+                        "x": 113.41,
+                        "y": 119.92
+                    },
+                    "uuid": "18bd107b-c204-4a4e-a9d0-ae4b9e05f570"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Texto da PCI 'BT1 colada aqui' em B.Silkscreen",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 120.4
+                    },
+                    "uuid": "c406a703-39fd-4e83-97a1-472e744a2f67"
+                },
+                {
+                    "description": "Ilha PTH 1 [/VBAT_SENSE] de U1",
+                    "pos": {
+                        "x": 110.87,
+                        "y": 119.92
+                    },
+                    "uuid": "892115df-488e-4cbb-937c-b24eab3f8e00"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "O footprint 'Speaker_LD-SP-U15.5_Virtual' não corresponde à cópia na biblioteca 'PIXEL_Mechanical'",
+            "items": [
+                {
+                    "description": "Footprint MECH1",
+                    "pos": {
+                        "x": 143.7,
+                        "y": 129.0
+                    },
+                    "uuid": "2b03e8a4-22b4-45f3-bd32-c4f4e0f4df08"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "O footprint 'LiPo_EasyLander_103040_Virtual' não corresponde à cópia na biblioteca 'PIXEL_Mechanical'",
+            "items": [
+                {
+                    "description": "Footprint MECH2",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 120.4
+                    },
+                    "uuid": "4dd83fd9-37e7-4893-9a4d-3483f45c7016"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+#VRML V2.0 utf8
+# PIXEL project - SIMPLIFIED geometric model generated from datasheet outline dimensions.
+# Not a manufacturer model. Units: 0.1 inch (KiCad VRML convention).
+# LiPo 3.7 V 400 mAh, SparkFun PRT-13851 envelope 36.9 x 26.5 x 5.0 mm
+Transform { translation 0.0000 0.0000 0.9252 children [ Shape {
+  appearance Appearance { material Material { diffuseColor 0.42 0.44 0.48 specularColor 0.25 0.25 0.25 shininess 0.25 transparency 0 } }
+  geometry Box { size 14.0551 10.0394 1.8504 } } ] }
+Transform { translation 0.0000 0.0000 0.9843 children [ Shape {
+  appearance Appearance { material Material { diffuseColor 0.5 0.52 0.56 specularColor 0.3 0.3 0.3 shininess 0.3 transparency 0 } }
+  geometry Box { size 13.3465 9.2520 1.9685 } } ] }
+Transform { translation -6.2402 0.0000 1.0039 children [ Shape {
+  appearance Appearance { material Material { diffuseColor 0.85 0.55 0.1 specularColor 0.5 0.4 0.1 shininess 0.4 transparency 0 } }
+  geometry Box { size 2.0472 10.0394 1.7323 } } ] }
+Transform { translation -7.7362 0.7874 0.6299 children [ Shape {
+  appearance Appearance { material Material { diffuseColor 0.8 0.08 0.08 specularColor 0.3 0.3 0.3 shininess 0.3 transparency 0 } }
+  geometry Box { size 1.1811 0.3543 0.3543 } } ] }
+Transform { translation -7.7362 0.2362 0.6299 children [ Shape {
+  appearance Appearance { material Material { diffuseColor 0.05 0.05 0.05 specularColor 0.3 0.3 0.3 shininess 0.3 transparency 0 } }
+  geometry Box { size 1.1811 0.3543 0.3543 } } ] }

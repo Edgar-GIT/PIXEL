@@ -1,0 +1,5 @@
+#VRML V2.0 utf8
+# PIXEL project - SIMPLIFIED geometric model (outline dimensions only), not a manufacturer model. Units 0.1 inch.
+# SS12D07-type slide switch 8.6 x 4.3 x 4.7 mm body, 2 mm lever
+Transform { translation 0.0000 0.0000 0.9252 children [ Shape { appearance Appearance { material Material { diffuseColor 0.75 0.75 0.78 specularColor 0.6 0.6 0.6 shininess 0.6 } } geometry Box { size 3.3858 1.6929 1.8504 } } ] }
+Transform { translation -0.3937 -1.4764 0.9252 children [ Shape { appearance Appearance { material Material { diffuseColor 0.08 0.08 0.08 specularColor 0.3 0.3 0.3 shininess 0.3 } } geometry Box { size 0.6299 1.2598 0.6299 } } ] }

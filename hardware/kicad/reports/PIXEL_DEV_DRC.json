@@ -1,0 +1,636 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-22T20:22:17",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "PIXEL_DEV.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Arco de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 132.095
+                    },
+                    "uuid": "e58dc6e2-2e34-451d-b04d-8f6a9f30e7e5"
+                },
+                {
+                    "description": "Ilha 7 [unconnected-(U1-D6-Pad7)] de U1 no F.Cu",
+                    "pos": {
+                        "x": 129.12,
+                        "y": 133.165
+                    },
+                    "uuid": "b9d429cc-187b-4c59-809a-287ecdd24e6a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 116.22
+                    },
+                    "uuid": "ca39b4cc-2bbf-4033-a0e7-7b438a73029f"
+                },
+                {
+                    "description": "Segmento no F.Mask",
+                    "pos": {
+                        "x": 116.42,
+                        "y": 117.0
+                    },
+                    "uuid": "7aad16a0-f1f1-4ccf-b8cd-a41c111f7ac5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 116.22
+                    },
+                    "uuid": "ca39b4cc-2bbf-4033-a0e7-7b438a73029f"
+                },
+                {
+                    "description": "Ilha 13 [GND] de U1 no F.Cu",
+                    "pos": {
+                        "x": 116.42,
+                        "y": 117.0
+                    },
+                    "uuid": "e445e9b4-4545-4f07-8d08-568cd77a45e5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 116.22
+                    },
+                    "uuid": "ca39b4cc-2bbf-4033-a0e7-7b438a73029f"
+                },
+                {
+                    "description": "Ilha 8 [unconnected-(U1-D7-Pad8)] de U1 no F.Cu",
+                    "pos": {
+                        "x": 129.12,
+                        "y": 117.0
+                    },
+                    "uuid": "0c42b742-5bc6-4f78-839f-7f1d355bda32"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 116.22
+                    },
+                    "uuid": "ca39b4cc-2bbf-4033-a0e7-7b438a73029f"
+                },
+                {
+                    "description": "Ilha 9 [unconnected-(U1-D8-Pad9)] de U1 no F.Cu",
+                    "pos": {
+                        "x": 126.58,
+                        "y": 117.0
+                    },
+                    "uuid": "435821bc-5175-42c4-98a1-797cfeab32a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 116.22
+                    },
+                    "uuid": "ca39b4cc-2bbf-4033-a0e7-7b438a73029f"
+                },
+                {
+                    "description": "Ilha 10 [unconnected-(U1-D9-Pad10)] de U1 no F.Cu",
+                    "pos": {
+                        "x": 124.04,
+                        "y": 117.0
+                    },
+                    "uuid": "fba72138-5a37-4318-a9a2-16da061f6978"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 116.22
+                    },
+                    "uuid": "ca39b4cc-2bbf-4033-a0e7-7b438a73029f"
+                },
+                {
+                    "description": "Ilha 11 [unconnected-(U1-D10-Pad11)] de U1 no F.Cu",
+                    "pos": {
+                        "x": 121.5,
+                        "y": 117.0
+                    },
+                    "uuid": "2a56799d-6fdc-4d8e-8731-5abe8abc148e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 116.22
+                    },
+                    "uuid": "ca39b4cc-2bbf-4033-a0e7-7b438a73029f"
+                },
+                {
+                    "description": "Ilha 12 [unconnected-(U1-3V3_OUT-Pad12)] de U1 no F.Cu",
+                    "pos": {
+                        "x": 118.96,
+                        "y": 117.0
+                    },
+                    "uuid": "c237cc00-0cfc-4e36-a48a-aba004c3e63b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 116.22
+                    },
+                    "uuid": "ca39b4cc-2bbf-4033-a0e7-7b438a73029f"
+                },
+                {
+                    "description": "Ilha 14 [unconnected-(U1-VBUS-Pad14)] de U1 no F.Cu",
+                    "pos": {
+                        "x": 113.88,
+                        "y": 117.0
+                    },
+                    "uuid": "2f99b151-00e4-4d1e-9183-a546e32e8183"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 134.0
+                    },
+                    "uuid": "0ddbba82-3a2d-4754-95f1-7ae0b4104bd2"
+                },
+                {
+                    "description": "Ilha 1 [/VBAT_SENSE] de U1 no F.Cu",
+                    "pos": {
+                        "x": 113.88,
+                        "y": 133.165
+                    },
+                    "uuid": "4c6d3231-07cd-4aad-b2f9-0e0d6a762b89"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 134.0
+                    },
+                    "uuid": "0ddbba82-3a2d-4754-95f1-7ae0b4104bd2"
+                },
+                {
+                    "description": "Ilha 2 [/AMP_EN] de U1 no F.Cu",
+                    "pos": {
+                        "x": 116.42,
+                        "y": 133.165
+                    },
+                    "uuid": "0f260196-44ef-404f-9249-e622782706ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 134.0
+                    },
+                    "uuid": "0ddbba82-3a2d-4754-95f1-7ae0b4104bd2"
+                },
+                {
+                    "description": "Ilha 3 [/I2S_DOUT] de U1 no F.Cu",
+                    "pos": {
+                        "x": 118.96,
+                        "y": 133.165
+                    },
+                    "uuid": "d57ba820-6db1-41a7-a4a2-d86fde2544a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 134.0
+                    },
+                    "uuid": "0ddbba82-3a2d-4754-95f1-7ae0b4104bd2"
+                },
+                {
+                    "description": "Ilha 4 [/I2S_BCLK] de U1 no F.Cu",
+                    "pos": {
+                        "x": 121.5,
+                        "y": 133.165
+                    },
+                    "uuid": "d1c68473-4838-4206-9ccb-9d88fe2f193f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 134.0
+                    },
+                    "uuid": "0ddbba82-3a2d-4754-95f1-7ae0b4104bd2"
+                },
+                {
+                    "description": "Segmento no F.Mask",
+                    "pos": {
+                        "x": 113.88,
+                        "y": 133.164999
+                    },
+                    "uuid": "c1c76e0d-2b76-4a00-98bf-146a0a51d6aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 134.0
+                    },
+                    "uuid": "0ddbba82-3a2d-4754-95f1-7ae0b4104bd2"
+                },
+                {
+                    "description": "Segmento no F.Mask",
+                    "pos": {
+                        "x": 116.42,
+                        "y": 133.164999
+                    },
+                    "uuid": "fb115125-bd73-40e1-bf9f-b9ef8972a3eb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 134.0
+                    },
+                    "uuid": "0ddbba82-3a2d-4754-95f1-7ae0b4104bd2"
+                },
+                {
+                    "description": "Segmento no F.Mask",
+                    "pos": {
+                        "x": 118.96,
+                        "y": 133.164999
+                    },
+                    "uuid": "1a5c0a67-1ee4-41c9-990a-c85506d8b8e1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 134.0
+                    },
+                    "uuid": "0ddbba82-3a2d-4754-95f1-7ae0b4104bd2"
+                },
+                {
+                    "description": "Segmento no F.Mask",
+                    "pos": {
+                        "x": 121.5,
+                        "y": 133.164999
+                    },
+                    "uuid": "2deae3d2-31fa-42c4-a9ed-566257869830"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 134.0
+                    },
+                    "uuid": "0ddbba82-3a2d-4754-95f1-7ae0b4104bd2"
+                },
+                {
+                    "description": "Segmento no F.Mask",
+                    "pos": {
+                        "x": 124.04,
+                        "y": 133.164999
+                    },
+                    "uuid": "121e923a-0824-49d2-97a6-10edb12a720d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 134.0
+                    },
+                    "uuid": "0ddbba82-3a2d-4754-95f1-7ae0b4104bd2"
+                },
+                {
+                    "description": "Ilha 5 [/I2S_LRCLK] de U1 no F.Cu",
+                    "pos": {
+                        "x": 124.04,
+                        "y": 133.165
+                    },
+                    "uuid": "9357a787-c232-4154-a298-24e135bccbc8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 134.0
+                    },
+                    "uuid": "0ddbba82-3a2d-4754-95f1-7ae0b4104bd2"
+                },
+                {
+                    "description": "Ilha 6 [unconnected-(U1-D5-Pad6)] de U1 no F.Cu",
+                    "pos": {
+                        "x": 126.58,
+                        "y": 133.165
+                    },
+                    "uuid": "53bdcd57-5713-4560-b313-15cce5554959"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 134.0
+                    },
+                    "uuid": "0ddbba82-3a2d-4754-95f1-7ae0b4104bd2"
+                },
+                {
+                    "description": "Ilha 7 [unconnected-(U1-D6-Pad7)] de U1 no F.Cu",
+                    "pos": {
+                        "x": 129.12,
+                        "y": 133.165
+                    },
+                    "uuid": "b9d429cc-187b-4c59-809a-287ecdd24e6a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Arco de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 112.868,
+                        "y": 118.125
+                    },
+                    "uuid": "03e9d160-7b4b-4ac1-aecb-0e5580152d0d"
+                },
+                {
+                    "description": "Ilha 14 [unconnected-(U1-VBUS-Pad14)] de U1 no F.Cu",
+                    "pos": {
+                        "x": 113.88,
+                        "y": 117.0
+                    },
+                    "uuid": "2f99b151-00e4-4d1e-9183-a546e32e8183"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Arco de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 112.864001,
+                        "y": 132.094999
+                    },
+                    "uuid": "7850c972-c153-45e1-b702-794dc3a19359"
+                },
+                {
+                    "description": "Ilha 1 [/VBAT_SENSE] de U1 no F.Cu",
+                    "pos": {
+                        "x": 113.88,
+                        "y": 133.165
+                    },
+                    "uuid": "4c6d3231-07cd-4aad-b2f9-0e0d6a762b89"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Arco de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 130.013,
+                        "y": 118.125
+                    },
+                    "uuid": "6e38cda3-c629-48b4-a0af-3f6dcba12297"
+                },
+                {
+                    "description": "Ilha 8 [unconnected-(U1-D7-Pad8)] de U1 no F.Cu",
+                    "pos": {
+                        "x": 129.12,
+                        "y": 117.0
+                    },
+                    "uuid": "0c42b742-5bc6-4f78-839f-7f1d355bda32"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segmento no Edge.Cuts",
+                    "pos": {
+                        "x": 223.0,
+                        "y": 176.0
+                    },
+                    "uuid": "feb8d8b2-8e30-47ea-884f-fd47e7d60a4c"
+                },
+                {
+                    "description": "Segmento de SW1 em F.Silkscreen",
+                    "pos": {
+                        "x": 168.45,
+                        "y": 175.33
+                    },
+                    "uuid": "39f16693-8028-4b8b-9174-b0d71b8c0c6b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segmento no Edge.Cuts",
+                    "pos": {
+                        "x": 223.0,
+                        "y": 176.0
+                    },
+                    "uuid": "feb8d8b2-8e30-47ea-884f-fd47e7d60a4c"
+                },
+                {
+                    "description": "Segmento de SW1 em F.Silkscreen",
+                    "pos": {
+                        "x": 169.75,
+                        "y": 176.62
+                    },
+                    "uuid": "d91712fe-db17-4ffd-8313-dd5fa8ab3df2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        }
+    ]
+}

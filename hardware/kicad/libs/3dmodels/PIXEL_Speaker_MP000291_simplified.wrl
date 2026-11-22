@@ -1,0 +1,19 @@
+#VRML V2.0 utf8
+# PIXEL project - SIMPLIFIED geometric model generated from datasheet outline dimensions.
+# Not a manufacturer model. Units: 0.1 inch (KiCad VRML convention).
+# Micro speaker 8 ohm 1 W, Multicomp Pro MP000291 envelope 15 x 11 x 3 mm
+Transform { translation 0.0000 0.0000 0.5906 children [ Shape {
+  appearance Appearance { material Material { diffuseColor 0.06 0.06 0.07 specularColor 0.2 0.2 0.2 shininess 0.2 transparency 0 } }
+  geometry Box { size 5.9055 4.3307 1.1811 } } ] }
+Transform { translation 0.0000 0.0000 1.1890 children [ Shape {
+  appearance Appearance { material Material { diffuseColor 0.55 0.45 0.2 specularColor 0.7 0.6 0.3 shininess 0.6 transparency 0 } }
+  geometry Box { size 5.2756 3.7008 0.0197 } } ] }
+Transform { translation 0.0000 0.0000 1.2047 children [ Shape {
+  appearance Appearance { material Material { diffuseColor 0.12 0.12 0.13 specularColor 0.3 0.3 0.3 shininess 0.3 transparency 0 } }
+  geometry Box { size 4.3307 2.7559 0.0197 } } ] }
+Transform { translation -3.2677 0.4724 0.3150 children [ Shape {
+  appearance Appearance { material Material { diffuseColor 0.8 0.08 0.08 specularColor 0.3 0.3 0.3 shininess 0.3 transparency 0 } }
+  geometry Box { size 0.6299 0.2362 0.2362 } } ] }
+Transform { translation -3.2677 -0.4724 0.3150 children [ Shape {
+  appearance Appearance { material Material { diffuseColor 0.05 0.05 0.05 specularColor 0.3 0.3 0.3 shininess 0.3 transparency 0 } }
+  geometry Box { size 0.6299 0.2362 0.2362 } } ] }

@@ -1,0 +1,122 @@
+** Drc report for PIXEL.kicad_pcb **
+** Created on 2026-11-22T20:27:09 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 26 DRC violations **
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.0130 mm, 119.6000 mm): Segmento de U1 em F.Silkscreen
+    @(110.5000 mm, 118.7650 mm): Ilha 4 [/I2S_BCLK] de U1 no F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.0130 mm, 119.6000 mm): Segmento de U1 em F.Silkscreen
+    @(113.0400 mm, 118.7650 mm): Ilha 5 [/I2S_LRCLK] de U1 no F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.0130 mm, 119.6000 mm): Segmento de U1 em F.Silkscreen
+    @(115.5800 mm, 118.7650 mm): Ilha 6 [unconnected-(U1-D5-Pad6)] de U1 no F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.0130 mm, 119.6000 mm): Segmento de U1 em F.Silkscreen
+    @(118.1200 mm, 118.7650 mm): Ilha 7 [unconnected-(U1-D6-Pad7)] de U1 no F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.0130 mm, 119.6000 mm): Segmento de U1 em F.Silkscreen
+    @(102.8800 mm, 118.7650 mm): Ilha 1 [/VBAT_SENSE] de U1 no F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.0130 mm, 119.6000 mm): Segmento de U1 em F.Silkscreen
+    @(105.4200 mm, 118.7650 mm): Ilha 2 [/AMP_EN] de U1 no F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.0130 mm, 119.6000 mm): Segmento de U1 em F.Silkscreen
+    @(107.9600 mm, 118.7650 mm): Ilha 3 [/I2S_DOUT] de U1 no F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.0130 mm, 103.7250 mm): Arco de U1 em F.Silkscreen
+    @(118.1200 mm, 102.6000 mm): Ilha 8 [unconnected-(U1-D7-Pad8)] de U1 no F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.0130 mm, 117.6950 mm): Arco de U1 em F.Silkscreen
+    @(118.1200 mm, 118.7650 mm): Ilha 7 [unconnected-(U1-D6-Pad7)] de U1 no F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.0130 mm, 101.8200 mm): Segmento de U1 em F.Silkscreen
+    @(118.1200 mm, 102.6000 mm): Ilha 8 [unconnected-(U1-D7-Pad8)] de U1 no F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.0130 mm, 101.8200 mm): Segmento de U1 em F.Silkscreen
+    @(115.5800 mm, 102.6000 mm): Ilha 9 [unconnected-(U1-D8-Pad9)] de U1 no F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.0130 mm, 101.8200 mm): Segmento de U1 em F.Silkscreen
+    @(113.0400 mm, 102.6000 mm): Ilha 10 [unconnected-(U1-D9-Pad10)] de U1 no F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.0130 mm, 101.8200 mm): Segmento de U1 em F.Silkscreen
+    @(110.5000 mm, 102.6000 mm): Ilha 11 [unconnected-(U1-D10-Pad11)] de U1 no F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.0130 mm, 101.8200 mm): Segmento de U1 em F.Silkscreen
+    @(107.9600 mm, 102.6000 mm): Ilha 12 [unconnected-(U1-3V3_OUT-Pad12)] de U1 no F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.0130 mm, 101.8200 mm): Segmento de U1 em F.Silkscreen
+    @(105.4200 mm, 102.6000 mm): Ilha 13 [GND] de U1 no F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.0130 mm, 101.8200 mm): Segmento de U1 em F.Silkscreen
+    @(102.8800 mm, 102.6000 mm): Ilha 14 [unconnected-(U1-VBUS-Pad14)] de U1 no F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(101.8680 mm, 103.7250 mm): Arco de U1 em F.Silkscreen
+    @(102.8800 mm, 102.6000 mm): Ilha 14 [unconnected-(U1-VBUS-Pad14)] de U1 no F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(101.8640 mm, 117.6950 mm): Arco de U1 em F.Silkscreen
+    @(102.8800 mm, 118.7650 mm): Ilha 1 [/VBAT_SENSE] de U1 no F.Cu
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuração da serigrafia da placa; warning
+    @(152.0000 mm, 124.0000 mm): Segmento no Edge.Cuts
+    @(142.0500 mm, 123.5300 mm): Segmento de SW1 em F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuração da serigrafia da placa; warning
+    @(152.0000 mm, 124.0000 mm): Segmento no Edge.Cuts
+    @(143.3500 mm, 124.8200 mm): Segmento de SW1 em F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuração da serigrafia da placa; warning
+    @(100.0000 mm, 122.0000 mm): Segmento no Edge.Cuts
+    @(98.9530 mm, 106.2060 mm): Segmento de U1 em F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuração da serigrafia da placa; warning
+    @(100.0000 mm, 122.0000 mm): Segmento no Edge.Cuts
+    @(99.9630 mm, 103.7250 mm): Segmento de U1 em F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuração da serigrafia da placa; warning
+    @(100.0000 mm, 122.0000 mm): Segmento no Edge.Cuts
+    @(99.9630 mm, 115.2050 mm): Segmento de U1 em F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuração da serigrafia da placa; warning
+    @(100.0000 mm, 122.0000 mm): Segmento no Edge.Cuts
+    @(101.8680 mm, 103.7250 mm): Arco de U1 em F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuração da serigrafia da placa; warning
+    @(100.0000 mm, 122.0000 mm): Segmento no Edge.Cuts
+    @(101.8640 mm, 117.6950 mm): Arco de U1 em F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuração da serigrafia da placa; warning
+    @(100.0000 mm, 122.0000 mm): Segmento no Edge.Cuts
+    @(100.3790 mm, 119.8100 mm): Círculo de U1 em F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

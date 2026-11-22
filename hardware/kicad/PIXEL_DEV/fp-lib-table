@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Seeed_Studio_XIAO_Series")(type "KiCad")(uri "${KIPRJMOD}/../libs/Seeed_Studio_XIAO_Series.pretty")(options "")(descr "Seeed Studio OPL KiCad library (CC BY-SA 4.0) + official XIAO ESP32S3 Sense 3D model"))
+  (lib (name "PIXEL_Mechanical")(type "KiCad")(uri "${KIPRJMOD}/../libs/PIXEL_Mechanical.pretty")(options "")(descr "PIXEL virtual mechanical outlines (visualisation only)"))
+)
